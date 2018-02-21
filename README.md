@@ -12,7 +12,25 @@
 	<li>Match Result
 	<li>Man of the match
 </ol>
+<p>
 	
+<h3>Screenshots</h3>
+<br>
+
+![home](https://user-images.githubusercontent.com/21247634/36489665-9dfe002a-174c-11e8-9583-eecb64133579.png)
+&emsp;
+![intents](https://user-images.githubusercontent.com/21247634/36489788-d6549a2e-174c-11e8-8a6d-3b37182cdca8.png)
+&emsp;
+![aboutipl](https://user-images.githubusercontent.com/21247634/36489787-d61e3a24-174c-11e8-95b1-acf5d29b5486.png)
+<br><br>
+![totalmatches](https://user-images.githubusercontent.com/21247634/36489793-d734d300-174c-11e8-9f96-7aba00591c0a.png)
+&emsp;
+![manofmatch](https://user-images.githubusercontent.com/21247634/36489789-d688a918-174c-11e8-9de7-1b0f95fac302.png)
+&emsp;
+![matchresult](https://user-images.githubusercontent.com/21247634/36489790-d6bc3742-174c-11e8-8c7f-31b63f596b5c.png)
+
+
+
 
 Steps to set up development environment
 
