@@ -14,6 +14,21 @@
 </ol>
 <p>
 	
+<h3>Steps to set up development environment</h3>
+
+	-- Follow the steps as mentioned in "Getting Started" section of react-native website in the "Build with native code" tab
+	-- https://facebook.github.io/react-native/docs/getting-started.html
+
+<h3>To Clone Repository and Running on device/emulator</h3>
+
+	-- git clone https://github.com/anishsamant/IPLAlexaSkill	
+	-- cd IPLAlexaSkill
+	-- npm install (to install project dependencies)
+	-- react-native run-android (for android)
+			OR
+	-- react-native run-ios (for ios)
+	-- This will run the app on your connected emulator or development device
+	
 <h3>Screenshots</h3>
 <br>
 
@@ -29,20 +44,16 @@
 &emsp;
 ![matchresult](https://user-images.githubusercontent.com/21247634/36489790-d6bc3742-174c-11e8-8c7f-31b63f596b5c.png)
 
-
-
-
-Steps to set up development environment
-
-	-- Follow the steps as mentioned in "Getting Started" section of react-native website in the "Build with native code" tab
-	-- https://facebook.github.io/react-native/docs/getting-started.html
-
-To Clone Repository and Running on device/emulator
-
-	-- git clone https://github.com/anishsamant/hpdfGroupTask.git	
-	-- cd hpdfGroupTask
-	-- npm install (to install project dependencies)
-	-- react-native run-android (for android)
-			OR
-	-- react-native run-ios (for ios)
-	-- This will run the app on your connected emulator or development device
+<p>
+	
+<h3>Internal Implementation</h3>
+<p>
+1. The user has to start speaking with <b>"Alexa, start IPL search"</b> then follow it with the question.<br>
+2. If the asked question matches with the defined utterances, Alexa will give the respective response.<br>
+3. Eg: Alexa, start IPL search, What is Indian Premier League<br>
+&emsp;Response: The Indian Premier League (IPL), officially Vivo Indian Premier League for sponsorship reasons, is a professional Twenty20 cricket league in India contested during April and May of every year by teams representing Indian cities.
+<p>
+	
+<h3>Support</h3>
+<p>
+&emsp;If you happen to get stuck anywhere, please mail me at anish.samant97@gmail.com. Alternatively, if you find a bug, you can raise an issue [here](https://github.com/anishsamant/IPLAlexaSkill/issues).
