@@ -1,5 +1,6 @@
 # Log of utterances and responses for custom alexa skill
-
+<h2>Go to http://github.com/anishsamant/IPLAlexaSkill to get the app</h2>
+<p>
 <h3>ABOUT THE APP</h3><p>
 &emsp;The app is based on the custom alexa skills that have been created on scanning and querying the IPL dataset (https://www.kaggle.com/manasgarg/ipl/data). The dataset consists of statistical analysis of all the matches ever played in the IPL upto season 10 (2017). This mobile app shows a <b>list of defined intents, their utterances and the respective response that alexa will give</b>. Currently there are 5 intents defined and the app provides the valid utterances for each one of them. This app works as a guide for the user to effectively interact with the alexa enabled device.<p>
 	
