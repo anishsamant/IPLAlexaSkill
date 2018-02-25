@@ -25,7 +25,7 @@ export default class Home extends Component {
                             <Icon name="ios-arrow-forward-outline" />
                         </ListItem>
                         <ListItem button style={styles.listItem} onPress={() => { Actions.matchResult(); }}>
-                            <Text style={styles.text}>Match Result:</Text>
+                            <Text style={styles.text}>Match Result</Text>
                             <Icon name="ios-arrow-forward-outline" />
                         </ListItem>
                         <ListItem button style={styles.listItem} onPress={() => { Actions.matchSummary(); }}>
