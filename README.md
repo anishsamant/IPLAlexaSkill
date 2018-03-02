@@ -1,5 +1,8 @@
 # Log of utterances and responses for custom alexa skill
-<h2>Go to http://github.com/anishsamant/IPLAlexaSkill to get the app</h2>
+
+![logo](https://user-images.githubusercontent.com/21247634/36923254-ae754c9c-1e90-11e8-8135-c50253e77d85.jpeg)
+
+<h3>Go to http://github.com/anishsamant/IPLAlexaSkill to get the app</h3>
 <p>
 <h3>ABOUT THE APP</h3><p>
 &emsp;The app is based on the custom alexa skills that have been created on scanning and querying the IPL dataset (https://www.kaggle.com/manasgarg/ipl/data). The dataset consists of statistical analysis of all the matches ever played in the IPL upto season 10 (2017). This mobile app shows a <b>list of defined intents, their utterances and the respective response that alexa will give</b>. Currently there are 5 intents defined and the app provides the valid utterances for each one of them. This app works as a guide for the user to effectively interact with the alexa enabled device.<p>
@@ -33,17 +36,19 @@
 <h3>Screenshots</h3>
 <br>
 
-![home](https://user-images.githubusercontent.com/21247634/36489665-9dfe002a-174c-11e8-9583-eecb64133579.png)
+![home](https://user-images.githubusercontent.com/21247634/36922877-6bf3e7f8-1e8f-11e8-933a-450e47d12e25.png)
 &emsp;
-![intents](https://user-images.githubusercontent.com/21247634/36489788-d6549a2e-174c-11e8-8a6d-3b37182cdca8.png)
+![intents](https://user-images.githubusercontent.com/21247634/36922914-8d67acee-1e8f-11e8-8a1a-2b13c84696f6.png)
 &emsp;
-![aboutipl](https://user-images.githubusercontent.com/21247634/36489787-d61e3a24-174c-11e8-95b1-acf5d29b5486.png)
+![welcome](https://user-images.githubusercontent.com/21247634/36922918-8e44fb1c-1e8f-11e8-9414-f6d4ec641870.png)
 <br><br>
+![about](https://user-images.githubusercontent.com/21247634/36922919-8e777060-1e8f-11e8-9c10-37c57b18817d.png)
+&emsp;
 ![totalmatches](https://user-images.githubusercontent.com/21247634/36489793-d734d300-174c-11e8-9f96-7aba00591c0a.png)
 &emsp;
-![manofmatch](https://user-images.githubusercontent.com/21247634/36489789-d688a918-174c-11e8-9de7-1b0f95fac302.png)
+![totalmatches](https://user-images.githubusercontent.com/21247634/36922917-8e11fae6-1e8f-11e8-88da-18bcb74c69ab.png)
 &emsp;
-![matchresult](https://user-images.githubusercontent.com/21247634/36489790-d6bc3742-174c-11e8-8c7f-31b63f596b5c.png)
+![seasonwinner](https://user-images.githubusercontent.com/21247634/36922916-8ddabb8a-1e8f-11e8-9a0b-91884e9a9f70.png)
 
 <p>
 	
