@@ -12,7 +12,7 @@
 <ol>
 	<li>Welcome Message
 	<li>About IPL
-	<li>total Matches Played
+	<li>Total Matches Played
 	<li>Season Winner
 	<li>Exit message
 </ol>
