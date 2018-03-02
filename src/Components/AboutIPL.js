@@ -6,7 +6,7 @@ import LinearGradient from 'react-native-linear-gradient';
 export default class AboutIPL extends Component {
     render() {
         return (
-            <LinearGradient colors={['#fff6ce', '#fffdf4']} style={{ flex: 1 }}>
+            <LinearGradient colors={['#fff', '#BAF6FB']} style={{ flex: 1 }}>
             <ScrollView>
                 <Text style={[styles.title]}>
                     Alexa will give a brief description about IPL.
@@ -15,13 +15,16 @@ export default class AboutIPL extends Component {
                     <Text style={styles.title}>Sample invocation :- </Text>
                     <List>
                         <ListItem>
-                            <Text style={styles.text}>Alexa, start ipl search, What is Indian Premier League"</Text>
+                            <Text style={styles.text}>What is Indian Premier League</Text>
                         </ListItem>
                         <ListItem>
-                            <Text style={styles.text}>Alexa, start ipl search, What is IPL</Text>
+                            <Text style={styles.text}>What is IPL</Text>
                         </ListItem>
                         <ListItem>
-                            <Text style={styles.text}>Alexa, start ipl search, What this skill is about</Text>
+                            <Text style={styles.text}>What is IPL about</Text>
+                        </ListItem>
+                        <ListItem>
+                            <Text style={styles.text}>What this skill is about</Text>
                         </ListItem>
                     </List>
 

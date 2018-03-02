@@ -3,25 +3,25 @@ import { Text, View, ScrollView } from 'react-native';
 import { List, ListItem } from 'native-base';
 import LinearGradient from 'react-native-linear-gradient';
 
-export default class TotalMatches extends Component {
+export default class Exit extends Component {
     render() {
         return (
             <LinearGradient colors={['#fff', '#BAF6FB']} style={{ flex: 1 }}>
             <ScrollView>
                 <Text style={[styles.title]}>
-                    Alexa will give a count of the total number of matches played in the IPL until the 2017 season.
+                    Alexa will greet you with a welcome message.
                 </Text>
                 <View style={styles.card}>
                     <Text style={styles.title}>Sample invocation :- </Text>
                     <List>
                         <ListItem>
-                            <Text style={styles.text}>What is the total number of matches played ever in IPL"</Text>
+                            <Text style={styles.text}>Hi</Text>
                         </ListItem>
                         <ListItem>
-                            <Text style={styles.text}>What is the total number of matches played ever in Indian Premier League</Text>
+                            <Text style={styles.text}>Hello</Text>
                         </ListItem>
                         <ListItem>
-                            <Text style={styles.text}>How many matches played by teams in IPL</Text>
+                            <Text style={styles.text}>Say hello</Text>
                         </ListItem>
                     </List>
 

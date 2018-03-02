@@ -8,10 +8,14 @@ import LinearGradient from 'react-native-linear-gradient';
 export default class Home extends Component {
     render() {
         return (
-            <LinearGradient colors={['#fff6ce', '#fffdf4']} style={{ flex: 1 }}>
+            <LinearGradient colors={['#fff', '#BAF6FB']} style={{ flex: 1 }}>
             <ScrollView>
                 <View style={styles.card}>
                     <List>
+                        <ListItem button style={styles.listItem} onPress={() => { Actions.Welcome(); }}>
+                            <Text style={styles.text}>Welcome</Text>
+                            <Icon name="ios-arrow-forward-outline" />
+                        </ListItem>
                         <ListItem button style={styles.listItem} onPress={() => { Actions.aboutIPL(); }}>
                             <Text style={styles.text}>About IPL</Text>
                             <Icon name="ios-arrow-forward-outline" />
@@ -20,16 +24,12 @@ export default class Home extends Component {
                             <Text style={styles.text}>Total Matches</Text>
                             <Icon name="ios-arrow-forward-outline" />
                         </ListItem>
-                        <ListItem button style={styles.listItem} onPress={() => { Actions.manOfMatch(); }}>
-                            <Text style={styles.text}>Man of the Match</Text>
+                        <ListItem button style={styles.listItem} onPress={() => { Actions.SeasonWinner(); }}>
+                            <Text style={styles.text}>Season Winner</Text>
                             <Icon name="ios-arrow-forward-outline" />
                         </ListItem>
-                        <ListItem button style={styles.listItem} onPress={() => { Actions.matchResult(); }}>
-                            <Text style={styles.text}>Match Result</Text>
-                            <Icon name="ios-arrow-forward-outline" />
-                        </ListItem>
-                        <ListItem button style={styles.listItem} onPress={() => { Actions.matchSummary(); }}>
-                            <Text style={styles.text}>Match Summary</Text>
+                        <ListItem button style={styles.listItem} onPress={() => { Actions.Exit(); }}>
+                            <Text style={styles.text}>Exit</Text>
                             <Icon name="ios-arrow-forward-outline" />
                         </ListItem>
                     </List>

@@ -8,7 +8,7 @@ import LinearGradient from 'react-native-linear-gradient';
 export default class Home extends Component {
     render() {
         return (
-            <LinearGradient colors={['#fff6ce', '#fffdf4']} style={{ flex: 1 }}>
+            <LinearGradient colors={['#fff', '#fff']} style={{ flex: 1 }}>
             <ScrollView>
                 <Text style={[styles.title]}>This is an alexa skill which gives you answers about all the previous IPL matches till Season 10 (2017), based on the questions asked to alexa</Text>
                 <View style={styles.card}>
@@ -67,11 +67,11 @@ const styles = {
         elevation: 1,
         borderWidth: 5,
         height: 50,
-        backgroundColor: '#ffff33'
+        backgroundColor: '#B2F6FC'
     },
     buttonText: {
         textAlign: 'center',
-        color: '#004d00',
+        color: '#2666AF',
         fontSize: 23
     }
 };
