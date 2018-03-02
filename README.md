@@ -10,11 +10,11 @@
 <h3>Intents</h3><p>
 &emsp;Currently 5 intents have been defined:<p>
 <ol>
+	<li>Welcome Message
 	<li>About IPL
-	<li>Total Matches Played
-	<li>Match Summary
-	<li>Match Result
-	<li>Man of the match
+	<li>total Matches Played
+	<li>Season Winner
+	<li>Exit message
 </ol>
 <p>
 	
@@ -44,8 +44,6 @@
 <br><br>
 ![about](https://user-images.githubusercontent.com/21247634/36922919-8e777060-1e8f-11e8-9c10-37c57b18817d.png)
 &emsp;
-![totalmatches](https://user-images.githubusercontent.com/21247634/36489793-d734d300-174c-11e8-9f96-7aba00591c0a.png)
-&emsp;
 ![totalmatches](https://user-images.githubusercontent.com/21247634/36922917-8e11fae6-1e8f-11e8-88da-18bcb74c69ab.png)
 &emsp;
 ![seasonwinner](https://user-images.githubusercontent.com/21247634/36922916-8ddabb8a-1e8f-11e8-9a0b-91884e9a9f70.png)
@@ -62,4 +60,4 @@
 	
 <h3>Support</h3>
 <p>
-&emsp;If you happen to get stuck anywhere, please mail me at anish.samant97@gmail.com. Alternatively, if you find a bug, you can raise an issue [here](https://github.com/anishsamant/IPLAlexaSkill/issues).
+&emsp;If you happen to get stuck anywhere, please mail me at anish.samant97@gmail.com. Alternatively, if you find a bug, you can raise an issue at (https://www.github.com/anishsamant/IPLAlexaSkill/issues).
